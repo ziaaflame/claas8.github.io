@@ -1,0 +1,92 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+    color: #8B8B8B;
+}
+a:hover { text-decoration: none }
+
+.gray-box{
+    background: #FBFBFB;
+}
+
+.service-bg-1 {background-image: url(../assets/img/bg-1.jpg);}
+.service-bg-2 {background-image: url(../assets/img/bg-2.jpg);}
+.service-bg-3 {background-image: url(../assets/img/bg-3.jpg);}
+.service-bg-4 {background-image: url(../assets/img/bg-4.jpg);}
+
+
+.section-padding {
+    padding: 80px 0;
+}
+.section-title h2 {
+    color: #333333;
+    font-size: 25px;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+.single-service-item {
+    background-color: #fff;
+    transition: .2s;
+}
+.service-bg {
+    background-color: #DDDDDD;
+    background-position: center center;
+    background-size: cover;
+    height: 225px;
+    /*width: 100%;*/
+}
+.service-content {
+    padding: 15px;
+}
+.service-content h2 {
+    color: #333333;
+    font-size: 20px;
+    margin-top: 15px;
+}
+a.see-more-btn {
+    border-radius: 50px;
+    color: #2ECC71;
+    display: inline-block;
+    font-weight: 700;
+    margin-top: 14px;
+    padding: 10px 0;
+    transition: .3s;
+}
+a.see-more-btn i.fa {
+    padding-left: 10px;
+}
+
+a.see-more-btn:hover {
+    background: none repeat scroll 0 0 #2ECC71;
+    color: #FFFFFF;
+    font-weight: 700;
+    padding: 10px 20px;
+}
+.single-service-item:hover {
+    box-shadow: 0 0 15px #E4F5EB;
+}
